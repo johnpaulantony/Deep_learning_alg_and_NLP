@@ -1,0 +1,61 @@
+Input layer - hidden layers( convolution layer and pooling layer)- batch normalisation - dropout- flattening - dense fully connected layer - output layer
+ 
+Each hidden layer extracts all features, the next hidden layer extracts in a deep dive manner 
+ 
+pip install pyqt5 pyqt5-tools
+ 
+pyuic -x demo.json -o demo.py
+ 
+-x extension into pyqt5 
+-o output python file 
+
+
+Input layer - hidden layers( convolution layer and pooling layer)- batch normalisation - dropout- flattening - dense fully connected layer - output layer
+ 
+ Each hidden layer extracts all features, the next hidden layer extracts in a deep dive manner 
+ 
+pip install pyqt5 pyqt5-tools
+ 
+pyuic -x demo.json -o demo.py
+ 
+-x extension into pyqt5 
+-o output python file 
+
+
+
+Image Data
+ 
+128*128*3 - input layer neurons
+ 
+ 
+HL1
+ 
+Convolution layer
+          - Extract all features small part by part
+ 
+           - 32 filters or 64 filters used
+ 
+ 
+            - Each filter takes a small small region 3*3
+ 
+pooling layer 
+ 
+     after getting the extract features , next reduction of features
+ 
+Batch normalisation - faster training and stability
+ 
+Dropout - prevents overfitting
+ 
+Flattening - convert into 1D format
+ 
+Fully connected layer - dense 
+ 
+Output layer - number of neurons 
+ 
+ 
+Activation function 
+ 
+1. In output layer - multi class outputs (>=2 ) use soft max 
+ 
+2. In hidden layer - relu activation function 
+ 
