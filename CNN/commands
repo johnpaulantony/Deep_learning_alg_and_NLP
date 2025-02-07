@@ -4,7 +4,7 @@ Each hidden layer extracts all features, the next hidden layer extracts in a dee
  
 pip install pyqt5 pyqt5-tools
  
-pyuic -x demo.json -o demo.py
+pyuic -x demo.ui -o demo.py
  
 -x extension into pyqt5 
 -o output python file 
