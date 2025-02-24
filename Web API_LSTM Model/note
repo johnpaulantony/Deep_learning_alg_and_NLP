@@ -1,1 +1,29 @@
+Test the API
+                      Use Postman or curl to send a POST request with a sample review.
+
+Using Postman
+Select POST.
+Enter URL: http://127.0.0.1:5000/predict
+
+
+
+Select Body → raw → JSON and send:
+
+{
+  "review": "The movie was amazing! The actors did a great job."
+}
+
+
+Using curl (Command Line)
+
+curl -X POST http://127.0.0.1:5000/predict -H "Content-Type: application/json" -d '{"review": "The movie was amazing! The actors did a great job."}'
+
+
+
+✅ Sample API Response
+
+{
+  "sentiment": "Positive",
+  "confidence": 0.8923
+}
 
